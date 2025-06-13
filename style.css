@@ -22,7 +22,7 @@ body {
 }
 
 .right-bar {
-    background-color: pink;
+    background-color: white;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ h2 {
 
 .left-bar {
 
-    background-color:hsl(241, 81%, 54%) ;
+    background:linear-gradient( to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))  ;
     flex: 1;
     text-align: center;
     line-height: 40px;
@@ -65,11 +65,16 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(241, 81%, 54%);
     
     
     
     
     
+}
+
+p {
+    color: white;
 }
 
 .circle-area div {
@@ -83,20 +88,17 @@ img {
 
 
 .continue {
-    background-color: hsla(241, 72%, 46%, 0.6);
+    background-color: rgb(24, 24, 58);
     border: 1px solid hsla(241, 72%, 46%, 0);
     border-radius: 40px;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 50px;
     color: white;
-    
-    
 }
 
-.continue:hover {
-    background-color: hsla(241, 72%, 46%, 1);
-}
+
+
 
 table {
     padding: 10px;
